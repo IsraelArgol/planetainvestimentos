@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <title>Gestão Planeta Investimentos</title>
+    <link rel="shortcut icon" href="imagens/Design sem nome (17) (1).png" type="image/x-icon">
+    <link rel="stylesheet" href="gestao.css">
+</head>
+<body>
+    <div class="container">
+        <div class="forms-container">
+            <div class="signin-signup">
+                <form id="loginForm" class="sign-in-form">
+                    <h2 class="title">Entrar</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" id="username" name="username" placeholder="Nome" required>
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" id="password" name="password" placeholder="Senha" required>
+                    </div>
+                    <button type="button" class="btn solid" onclick="validateLogin()">Login</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>Gestão de cadastros</h3>
+                    <p>
+                        Bem-vindo! Aqui você pode visualizar
+                        e excluir cadastros feitos no site "Planeta Investimento". Se precisar de ajuda,
+                        entre em contato comigo (61) 99881-6621. Tamo junto padin!
+                    </p>
+                    <button class="btn transparent" onclick="redirecionarParaWhatsapp()">WhatsApp</button> 
+                </div>
+
+                <img src="uploads/img_rock.svg" class="image" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="gestao.js"></script>
+</body>
+</html>
